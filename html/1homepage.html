@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>网易云音乐</title>
+    <link rel="stylesheet" href="../css/homepage.css" />
+</head>
+
+<body>
+    <div class="model">
+        <div class="model-content">
+            <p>
+                <b>登录</b>
+                <span>&times;</span>
+            </p>
+            <div class="model-content-info">
+                <ul class="model-content-left">
+                    <li><img src="../img1/platform.png" /></li>
+                    <li><button class="btn1">手机号登录</button></li>
+                    <li><button class="btn2">注&nbsp;册</button></li>
+                </ul>
+                <ul class="model-content-right">
+                    <li><b></b><a>微信登录</a></li>
+                    <li><b></b><a>QQ登录</a></li>
+                    <li><b></b><a>微博登录</a></li>
+                    <li><b></b><a>网易邮箱账号登录</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="model-login">
+        <div class="model-content">
+            <p>
+                <b>登录</b>
+                <span>&times;</span>
+            </p>
+                <ul class="model-content-left">
+                    <li><input type="tel" placeholder="请输入手机号"><span>&nbsp;号码输入错误</span></li>
+                    <li><input type="password" placeholder="请输入密码"><span>&nbsp;密码格式错误</span></li>
+                    <li>
+                        <input type="checkbox">自动登录
+                        <a href="#">忘记密码?</a>
+                    </li>
+                    <li><button class="btn2">登&nbsp;录</button></li>
+                </ul>
+            <p class="p">
+                <a href="#">&lt;其他登录方式</a>
+                <a href="#">没有账号?免费注册&gt;</a>
+            </p>
+        </div>
+    </div>
+    <div class="model-register">
+        <div class="model-content">
+            <p>
+                <b>手机号注册</b>
+                <span>&times;</span>
+            </p>
+            <ul class="model-content-left">
+                <li>手机号:</li>
+                <li><input type="tel" id="register-tel" placeholder="请输入手机号"><span>&nbsp;号码输入错误</span></li>
+                <li>密码:</li>
+                <li><input type="password" id="register-upwd" placeholder="请输入密码"><span>&nbsp;密码格式错误</span></li>
+                <li><input type="text" id="vcode" placeholder="验证码"/><span id="code" title="看不清，换一张">4564</span>  </li>
+                <li><button class="btn2">注册</button></li>
+            </ul>
+            <p class="p">
+                <a href="#">&lt;返回登录</a>
+            </p>
+        </div>
+    </div>
+    <!--1.top导航条-->
+    <header id="top">
+        <!-- 黑色部分导航-->
+        <div class="navone">
+            <div class="container">
+                <a href="#" class="title"></a>
+                <ul>
+                    <li>
+                        <b></b>
+                        <a href="#">发现音乐</a>
+                    </li>
+                    <li>
+                        <b></b>
+                        <a href="#">我的音乐</a>
+                    </li>
+                    <li>
+                        <b></b>
+                        <a href="#">朋友</a>
+                    </li>
+                    <li>
+                        <b></b>
+                        <a href="#">商城</a>
+                    </li>
+                    <li>
+                        <b></b>
+                        <a href="#">音乐人</a>
+                    </li>
+                    <li>
+                        <b></b>
+                        <a href="#">下载客户端</a>
+                    </li>
+                </ul>
+                <form class="has-feedback">
+                    <input type="text" placeholder="单曲/歌手/专辑/歌曲/MV/用户" />
+                </form>
+                <!--<a class="user"><img src="../img1/18757668371672735.jpg" /></a>-->
+                <a class="user">登录</a>
+                <span class="caret"></span>
+                <div class="clear"></div>
+            </div>
+            <div class="drop-menu">
+                <ul>
+                    <li><b></b><a>手机号登录</a></li>
+                    <li><b></b><a>QQ登录</a></li>
+                    <li><b></b><a>新浪微博登录</a></li>
+                    <li><b></b><a>网易邮箱账号登录</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 红色部分导航-->
+        <div class="navtwo">
+            <div class="container">
+                <ul>
+                    <li><a href="" class="navtwo-border">推荐</a></li>
+                    <li><a href="">排行榜</a></li>
+                    <li><a href="">歌单</a></li>
+                    <li><a href="">主播电台</a></li>
+                    <li><a href="">歌手</a></li>
+                    <li><a href="">新碟上架</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--2.banner-->
+    <div id="banner">
+        <a class="previous imgA"></a>
+        <div class="slider-viewing-area">
+            <div class="imgone">
+                <a href="#"><img src="../img1/19210667160589862.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="../img1/18596040162454786.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="../img1/18614731860142362.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="../img1/18614731860142373.jpg" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="../img1/18952281928049108.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <a class="next imgA"></a>
+        <ul class="slider-viewing-area-dian">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--3.页面主体-->
+    <section id="main">
+        <div class="container">
+            <!-- 左边-->
+            <div id="left-side">
+
+                <div class="left-top">
+                    <p>
+                        <b></b>
+                        <span>热门推荐</span>
+                    </p>
+                    <ul class="classification">
+                        <li>华语</li>
+                        <li>流行</li>
+                        <li>民谣</li>
+                        <li>摇滚</li>
+                        <li class="lastli">电子</li>
+                    </ul>
+                    <i>更多</i>
+                </div>
+
+                    <div class="first">
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162915233748.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">那些歌手以名命歌且好听的华语歌曲</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162913168010.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>21万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">旅行伴侣|优雅如诗的电子乐章</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/7910986162141032.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>433万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">超带感骑行音乐无限循环公路党狂飙</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/19227159835019624.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>3064</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">国语-你好，三之轮[东瀛过客_2]</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18745573743806401.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>235万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">梦幻旋律|轻度失眠患者福利</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18696095720594550.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>9091</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">我爱了十年的姑娘结婚了</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18807146394612417.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>89万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">笛子精谁家玉笛暗飞声&nbsp;散入春风满洛城</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18516875325192574.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p>一听前奏就会中毒的英文歌(2)</p>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18653214765570785.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">那些歌手以名命歌且好听的华语歌曲</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162913168010.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>21万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">旅行伴侣|优雅如诗的电子乐章</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/7910986162141032.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>433万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">超带感骑行音乐无限循环公路党狂飙</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/19227159835019624.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>3064</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">国语-你好，三之轮[东瀛过客_2]</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18745573743806401.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>235万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">梦幻旋律|轻度失眠患者福利</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18696095720594550.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>9091</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">我爱了十年的姑娘结婚了</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18807146394612417.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>89万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">笛子精谁家玉笛暗飞声&nbsp;散入春风满洛城</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18516875325192574.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p>一听前奏就会中毒的英文歌(2)</p>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162915233748.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">那些歌手以名命歌且好听的华语歌曲</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162913168010.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>21万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">旅行伴侣|优雅如诗的电子乐章</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/7910986162141032.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>433万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">超带感骑行音乐无限循环公路党狂飙</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/19227159835019624.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>3064</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">国语-你好，三之轮[东瀛过客_2]</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18745573743806401.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>235万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">梦幻旋律|轻度失眠患者福利</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18696095720594550.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>9091</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">我爱了十年的姑娘结婚了</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18807146394612417.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>89万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">笛子精谁家玉笛暗飞声&nbsp;散入春风满洛城</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18516875325192574.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p>一听前奏就会中毒的英文歌(2)</p>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162915233748.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">那些歌手以名命歌且好听的华语歌曲</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162913168010.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>21万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">旅行伴侣|优雅如诗的电子乐章</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/7910986162141032.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>433万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">超带感骑行音乐无限循环公路党狂飙</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/19227159835019624.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>3064</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">国语-你好，三之轮[东瀛过客_2]</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18745573743806401.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>235万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">梦幻旋律|轻度失眠患者福利</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18696095720594550.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>9091</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">我爱了十年的姑娘结婚了</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18807146394612417.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>89万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">笛子精谁家玉笛暗飞声&nbsp;散入春风满洛城</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18516875325192574.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p>一听前奏就会中毒的英文歌(2)</p>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162915233748.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">那些歌手以名命歌且好听的华语歌曲</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/109951162913168010.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>21万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">旅行伴侣|优雅如诗的电子乐章</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/7910986162141032.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>433万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">超带感骑行音乐无限循环公路党狂飙</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/19227159835019624.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>3064</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">国语-你好，三之轮[东瀛过客_2]</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18745573743806401.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>235万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">梦幻旋律|轻度失眠患者福利</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18696095720594550.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>9091</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">我爱了十年的姑娘结婚了</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18807146394612417.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>89万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p><a href="">笛子精谁家玉笛暗飞声&nbsp;散入春风满洛城</a></p>
+                        </div>
+                        <div>
+                            <div class="left-side-first-img">
+                                <a href=""><img src="../img1/18516875325192574.jpg"></a>
+                                <div class="left-side-first-img01">
+                                    <a href="#" class="ear-color"></a>
+                                    <b>65万</b>
+                                    <a href="#" class="play"></a>
+                                </div>
+                            </div>
+                            <p>一听前奏就会中毒的英文歌(2)</p>
+                        </div>
+                    </div>
+
+
+                <!-- 第二块-->
+                <div class="left-top">
+                    <p>
+                        <b></b>
+                        <span>个性化推荐</span>
+                    </p>
+                    <i>更多</i>
+                </div>
+                <div class="second">
+                    <div>
+                        <div class="left-side-first-img">
+                            <a href=""><img src="../img1/109951162915233748.jpg"></a>
+                            <div class="left-side-first-img01">
+                                <a href="#" class="ear-color"></a>
+                                <b>65万</b>
+                                <a href="#" class="play"></a>
+                            </div>
+                        </div>
+                        <p><a href="#">那些歌手以名命歌且好听的华语歌曲</a></p>
+                    </div>
+                    <div>
+                        <div class="left-side-first-img">
+                            <a href=""><img src="../img1/3427177751509346.jpg"></a>
+                            <div class="left-side-first-img01">
+                                <a href="#" class="ear-color"></a>
+                                <b>110万</b>
+                                <a href="#" class="play"></a>
+                            </div>
+                        </div>
+                        <p>
+                            <a>[超燃史诗]这震撼足以让你彻底沦陷
+                            <span>根据你喜欢的单曲《victor》推荐</span></a>
+                        </p>
+                    </div>
+                    <div>
+                        <div class="left-side-first-img">
+                            <a href=""><img src="../img1/18653214765570785.jpg"></a>
+                            <div class="left-side-first-img01">
+                                <a href="#" class="ear-color"></a>
+                                <b>52万</b>
+                                <a href="#" class="play"></a>
+                            </div>
+                        </div>
+                        <p>
+                            <a>曾经的凤舞九天非主流DJ舞曲
+                            <span>根据你喜欢的单曲《LUBOV》推荐</span></a>
+                        </p>
+                    </div>
+                    <div>
+                        <div class="left-side-first-img">
+                            <a href=""><img src="../img1/3247957353270222.jpg"></a>
+                            <div class="left-side-first-img01">
+                                <a href="#" class="ear-color"></a>
+                                <b>126万</b>
+                                <a href="#" class="play"></a>
+                            </div>
+                        </div>
+                        <p>
+                            <a>[韩剧]请回答1988
+                            <span>根据你喜欢的单曲《Right Here Waiting》推荐</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="ad-img">
+                    <a href="#"><img src="../img1/ad.bid.jpg"></a>
+                </div>
+                <div class="left-top">
+                    <p>
+                        <b></b>
+                        <span>新碟上架</span>
+                    </p>
+                    <i>更多</i>
+                </div>
+                <div class="img-slider">
+                    <a href="#" class="left-a"></a>
+                    <div class="img-slider-play">
+                        <ul class="img-slider-list01">
+                            <li>
+                                <a href="#"><img src="../img1/18978670207132851.jpg" /></a>
+                                <ul>
+                                    <li>Definition</li>
+                                    <li>Chace</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img1/18880813672259939.jpg" /></a>
+                                <ul>
+                                    <li>There is nothing</li>
+                                    <li>Shawn Mendes</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img1/19218363741983710.jpg" /></a>
+                                <ul>
+                                    <li>Shawn Mendes</li>
+                                    <li>Jessica</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img1/17741719626210374.jpg" /></a>
+                                <ul>
+                                    <li>欣赏</li>
+                                    <li>谭咏麟</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img1/18880813672259930.jpg" /></a>
+                                <ul>
+                                    <li>Lust for life</li>
+                                    <li>Lana Del Rey</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="img-slider-list02">
+                            <li>
+                                <a href="#"><img src="../img1/18973172648993092.jpg" /></a>
+                                <ul>
+                                    <li>Lust for life</li>
+                                    <li>Lana Del Rey</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img1/18926993160633418.jpg" /></a>
+                                <ul>
+                                    <li>Lust for life</li>
+                                    <li>Lana Del Rey</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img1/18828037115920685.jpg" /></a>
+                                <ul>
+                                    <li>Lust for life</li>
+                                    <li>Lana Del Rey</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img1/18895107323422670.jpg" /></a>
+                                <ul>
+                                    <li>Lust for life</li>
+                                    <li>Lana Del Rey</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><img src="../img1/18880813672259930.jpg" /></a>
+                                <ul>
+                                    <li>Lust for life</li>
+                                    <li>Lana Del Rey</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <a href="#" class="right-a"></a>
+                </div>
+                <div class="left-top">
+                    <p>
+                        <b></b>
+                        <span>榜单</span>
+                    </p>
+                    <i>更多</i>
+                </div>
+                <div class="music-list">
+                    <dl>
+                        <dt>
+                            <img src="../img1/18696095720518497.jpg" alt="">
+                            <div>
+                                <a>
+                                    <h3>云音乐飙升榜</h3>
+                                </a>
+                                <div>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+
+                            </div>
+                        </dt>
+                        <dd>
+                            <ol>
+                                <li><span>1</span><a href="#">Prod.SUGA</a></li>
+                                <li><span>2</span><a href="#">倩音流年</a></li>
+                                <li><span>3</span><a href="#">And Me</a></li>
+                                <li><span>4</span><a href="#">Thunder</a></li>
+                                <li><span>5</span><a href="#">白山茶</a></li>
+                                <li><span>6</span><a href="#">First Time</a></li>
+                                <li><span>7</span><a href="#">Let's Hurt Tonight(BUNT)</a></li>
+                                <li><span>8</span><a href="#">我喜欢上你时的内心活动</a></li>
+                                <li><span>9</span><a href="#">春风十里</a></li>
+                                <li><span>10</span><a href="#">春风十里不如你</a></li>
+
+                            </ol>
+                            <div class="view-more">
+                                <a href="#">查看全部&gt;</a>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="../img1/18713687906568048.jpg" alt="">
+                            <div>
+                                <a>
+                                    <h3>云音乐新歌榜</h3>
+                                </a>
+                                <div>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+
+                            </div>
+                        </dt>
+                        <dd>
+                            <ol>
+                                <li><span>1</span><a href="#">我害怕</a></li>
+                                <li><span>2</span><a href="#">暧昧</a></li>
+                                <li><span>3</span><a href="#">动物世界</a></li>
+                                <li><span>4</span><a href="#">我喜欢上你时的内心活动</a></li>
+                                <li><span>5</span><a href="#">Attention</a></li>
+                                <li><span>6</span><a href="#">Prod.SUGA</a></li>
+                                <li><span>7</span><a href="#">The Cure</a></li>
+                                <li><span>8</span><a href="#">Lust For Life</a></li>
+                                <li><span>9</span><a href="#">你是我心内的一首歌</a></li>
+                                <li><span>10</span><a href="#">白山茶</a></li>
+                            </ol>
+                            <div class="view-more">
+                                <a href="#">查看全部&gt;</a>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <img src="../img1/18740076185638788.jpg" alt="">
+                            <div>
+                                <a>
+                                    <h3>网易原创歌曲榜</h3>
+                                </a>
+                                <div>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+
+                            </div>
+                        </dt>
+                        <dd>
+                            <ol>
+                                <li><span>1</span><a href="#">流浪者</a></li>
+                                <li><span>2</span><a href="#">空港曲</a></li>
+                                <li><span>3</span><a href="#">不冷不热</a></li>
+                                <li><span>4</span><a href="#">也罢</a></li>
+                                <li><span>5</span><a href="#">秋城</a></li>
+                                <li><span>6</span><a href="#">君是山</a></li>
+                                <li><span>7</span><a href="#">你</a></li>
+                                <li><span>8</span><a href="#">流夏</a></li>
+                                <li><span>9</span><a href="#">乐生</a></li>
+                                <li><span>10</span><a href="#">琥珀</a></li>
+                            </ol>
+                            <div class="view-more" line>
+                                <a href="#">查看全部&gt;</a>
+                            </div>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- 右边-->
+
+            <div id="right-side">
+                <a href="" class="download"></a>
+                <dl>
+                    <dt>
+                        <a href="#"><img src="../img1/18757668371672735 (1).jpg" alt=""></a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <h4>后来怎么样</h4>
+                                </a>
+                            </li>
+                            <li><span>Lv.4</span></li>
+                            <li><button class="btn3" id="btn3">签到</button></li>
+                        </ul>
+                    </dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                <span>0</span>
+                                <p>动态</p>
+                            </li>
+                            <li>
+                                <span>2</span>
+                                <p>关注</p>
+                            </li>
+                            <li>
+                                <span>0</span>
+                                <p>粉丝</p>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <div class="singer">
+                    <h3>
+                        <span><a href="#">入驻歌手</a></span>
+                        <a href="#" class="more"><a href="#">查看更多&gt;</a>
+                    </h3>
+                    <ul>
+                        <li>
+                            <img src="../img1/5931865232210340.jpg" alt="">
+                            <div>
+                                <h3><a href="#">张惠妹aMEI</a></h3>
+                                <span><a href="#">台湾歌手张惠妹</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../img1/5783431162155757.jpg" alt="">
+                            <div>
+                                <h3><a href="#">尚雯婕</a></h3>
+                                <span><a href="#">原唱电子创作人</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../img1/2107763790458943.jpg" alt="">
+                            <div>
+                                <h3><a href="#">羽泉组合</a></h3>
+                                <span><a href="#">国内知名演唱组合</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../img1/3263350517410958.jpg" alt="">
+                            <div>
+                                <h3><a href="#">李志</a></h3>
+                                <span><a href="#">个体音乐人李志</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../img1/1375489058855837.jpg" alt="">
+                            <div>
+                                <h3><a href="#">马頭麻油叶</a></h3>
+                                <span><a href="#">民谣音乐人</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <button>申请成为网易音乐人</button>
+                        </li>
+                    </ul>
+                    <h3>
+                        <span><a href="#">热门DJ</a></span>
+                    </h3>
+                    <ul class="last-list">
+                        <li>
+                            <img src="../img1/1407374893913311.jpg" alt="">
+                            <div>
+                                <h3><a href="#">陈立</a></h3>
+                                <span>美食家陈立教授</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../img1/7942872001461517.jpg" alt="">
+                            <div>
+                                <h3><a href="#">DJ艳秋</a></h3>
+                                <span>著名音乐主持人</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../img1/3427177769086282.jpg" alt="">
+                            <div>
+                                <h3><a href="#">国家大剧院古典音乐频道</a></h3>
+                                <span>国家大剧院古典音乐官方</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../img1/3130309604335651.jpg" alt="">
+                            <div>
+                                <h3><a href="#">谢谢收听</a></h3>
+                                <span>南京节目主持人王馨</span>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="../img1/3440371884651965.jpg" alt="">
+                            <div>
+                                <h3><a href="#">DJ晓苏</a></h3>
+                                <span>独立DJ,CR环球旅游广播</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </section>
+    <!--4.页面底部-->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-left">
+                <p><a href="#">关于网易&nbsp;</a><span>|</span><a href="#">&nbsp;客户服务&nbsp;</a><span>|</span><a href="#">&nbsp;服务条款&nbsp;</a><span>|</span>
+                    <a
+                        href="#">&nbsp;网站导航&nbsp;</a><span>|</span><a href="#">&nbsp;意见反馈</a></p>
+                <p>
+                    <span>网易公司版权所有©1997-2017</span> 杭州乐读科技有限公司运营：浙网文[2015] 0415-135号
+                </p>
+            </div>
+            <ul class=footer-right>
+                <li>
+                    <b></b>
+                    <div>
+                        <h4>自媒体</h4>
+                        <span>提升影响力知名度</span>
+                    </div>
+                </li>
+                <li>
+                    <b></b>
+                    <div>
+                        <h4>独立音乐人</h4>
+                        <span>与亿万乐迷互动</span>
+                    </div>
+                </li>
+                <li>
+                    <b></b>
+                    <div>
+                        <h4>音乐专栏</h4>
+                        <span>与同道中人交流</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="clear"></div>
+    <div id="toTop">
+        <a href="#" class="toTopScroll"></a>
+    </div>
+    <div class="m-playbar">
+            <div class="btn">
+                <a href="#" class="prv" title="上一首">上一首</a>
+                <a href="#" class="play" title="播放">播放</a>
+                <a href="#" class="nxt" title="下一首">下一首</a>
+            </div>
+            <div class="progress">
+                <img src="../img1/6069304185603873.jpg"/>
+                <div class="progress-play">
+                    <p>撕夜 <span>阿杜</span></p>
+                    <div class="rdy">
+                        <span class="btn f-tdn"><i></i></span>
+                    </div>
+                </div>
+                <span><b>00:00</b>/00:00</span>
+                <audio  src="../res/撕夜 - 阿杜.mp3" id="bgMusic"></audio>
+            </div>
+    </div>
+
+    <script  type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+    <script  type="text/javascript" src="../js/homepage.js"></script>
+</body>
+
+</html>
